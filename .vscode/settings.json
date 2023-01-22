@@ -1,0 +1,9 @@
+{
+  "prettier.enable": true,
+  "prettier.proseWrap": "preserve",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "lf",
+  "prettier.requireConfig": true
+}
