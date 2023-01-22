@@ -4,6 +4,8 @@ import { StatusBar } from "react-native";
 import { Loading } from "./src/components/Loading";
 import { Routes } from "./src/routes";
 
+import './src/lib/dayjs';
+
 export default function App() {
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
