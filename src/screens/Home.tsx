@@ -38,7 +38,7 @@ export function Home() {
         {
           datesFromYearBeggining.map(date => (
             <HabitDay 
-              key={date.toString()} 
+              key={date.toISOString()} 
               onPress={() => navigate('habit', { date: date.toISOString()})}
             />
           ))
